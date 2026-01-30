@@ -29,3 +29,4 @@ While building and creating this project, I was able to learn how to properly st
 This bot can be used to announce any public or Esports related messages, manage player battles, track rankings, and increase engagement within competitive Discord servers. It also serves as a base for expanding into more advanced Esports features such as tournaments, matchmaking, or rewards systems.
 
 ## 🎥 Demo
+https://github.com/Sonny-Bolton/DiscordEsportsBot/blob/main/DiscordEsportsBot.mp4
