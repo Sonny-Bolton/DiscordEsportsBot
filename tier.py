@@ -6,15 +6,15 @@ import asyncio
 
 from storage import DataStore, parse_iso, utcnow_iso
 
-GUILD_ID = 1460697436262760460
+GUILD_ID = ServerID
 
 # 🔴 Admin log channel for notifications
-ADMIN_LOG_CHANNEL_ID = 1460730935350792347
+ADMIN_LOG_CHANNEL_ID =Admim Channel ID
 
 # ✅ Role IDs allowed to use admin commands
 ADMIN_ROLE_IDS = {
-    1460702422249902162,
-    1460704043189014608
+    ID1,
+    ID2
    
 }
 
@@ -328,3 +328,4 @@ class WinnerButton(discord.ui.Button):
 async def setup(bot: commands.Bot):
     guild = discord.Object(id=GUILD_ID)
     await bot.add_cog(Tier(bot), guild=guild)
+
