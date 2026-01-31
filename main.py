@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-GUILD_ID = 1460697436262760460
+GUILD_ID = SERVERID
 
 intents = discord.Intents.default()
 intents.members = True
@@ -25,5 +25,6 @@ async def on_ready():
     print(f"✅ Logged in as {bot.user} (ID: {bot.user.id})")
 
 bot.run("token")
+
 
 
