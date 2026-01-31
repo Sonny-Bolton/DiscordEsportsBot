@@ -11,14 +11,14 @@ GUILD_ID = 1460697436262760460
 
 # 🔴 Role IDs allowed to use admin commands (can add more)
 ADMIN_ROLE_IDS = {
-    1460702422249902162,
-    1460704043189014608
+    ID1,
+    ID2
 }
 
 # 🔴 Channels
-ANNOUNCEMENT_CHANNEL_ID = 1460705666837778493
-WELCOME_CHANNEL_ID = 1460705633715359938
-RULES_IMAGE_CHANNEL_ID = 1460705649955700857  # can be same or different
+ANNOUNCEMENT_CHANNEL_ID = Announcement Channel
+WELCOME_CHANNEL_ID = Welcome Channel
+RULES_IMAGE_CHANNEL_ID = Rules_Image_Channel
 
 
 # ----------------------------
@@ -256,4 +256,5 @@ class General(commands.Cog):
 
 async def setup(bot: commands.Bot):
     guild = discord.Object(id=GUILD_ID)
+
     await bot.add_cog(General(bot), guild=guild)
