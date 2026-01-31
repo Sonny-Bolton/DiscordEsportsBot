@@ -24,5 +24,6 @@ bot = MyBot(command_prefix="!", intents=intents)
 async def on_ready():
     print(f"✅ Logged in as {bot.user} (ID: {bot.user.id})")
 
-bot.run("MTQ1NTkzMjI0ODI3MTYyMjQ0OQ.GQ-xwe.q3Y7KN1_E0YAkWT8vupNnyrA8h8qI3LRlWqTrM")
+bot.run("token")
+
 
